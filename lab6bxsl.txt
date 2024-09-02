@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+    <xsl:template match="/">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+            <body>
+                <h2>List of One Student</h2>
+                <xsl:for-each select="vtu/student[1]">
+                    <div style="color:blue">
+                        <div> <xsl:value-of select="usn"/> </div>
+                        <div style="color: brown"><xsl:value-of select="name"/></div>
+                        <div style="color:green"><xsl:value-of select="branch"/></div>
+                        <div> <xsl:value-of select="college"/> </div>
+                        <div> <xsl:value-of select="year"/> </div>
+                        <hr width="150" align="left"/>
+                        <div style="color:red"><xsl:value-of select="email"/> </div>
+                    </div>
+                </xsl:for-each> 
+            </body> 
+        </html> 
+    </xsl:template> 
+</xsl:stylesheet>

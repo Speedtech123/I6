@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="6b.xsl"?>
+
+<vtu>
+  <student>
+    <usn>1nt23mc079</usn>
+    <name>Sandeep</name>
+    <branch>MCA</branch>
+    <college>NMIT</college>
+    <year>2024</year>
+    <email>sandeep@example.com</email>
+  </student>
+  <student>
+    <usn>1nt23mc080</usn>
+    <name>Ravi</name>
+    <branch>MCA</branch>
+    <college>NMIT</college>
+    <year>2024</year>
+    <email>ravi@example.com</email>
+  </student>
+  <student>
+    <usn>1nt23mc081</usn>
+    <name>Divya</name>
+    <branch>MCA</branch>
+    <college>NMIT</college>
+    <year>2024</year>
+    <email>divya@example.com</email>
+  </student>
+</vtu>
